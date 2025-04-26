@@ -61,7 +61,7 @@ int main(int argc, const char * argv[]) {
     // ayuda del pid de cada jugador (proceso) en el indice
     // nos permitira identifica su pipe en cada iteracion
     // En la primera dimencion el pdi y las otras dos
-    // dimenciones los fd1 y fd2
+    // dimenciones de la matriz los elementos del fd1 y fd2
     
     int pipes[num][2][2];
 
